@@ -1,0 +1,7 @@
+# This is a basic workflow to help you get started with Actions
+---
+- hosts: all
+  tasks:
+  - name: Print
+    debug:
+     msg: "Hello World"
